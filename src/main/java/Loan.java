@@ -18,6 +18,7 @@ public class Loan {
         if (this.amount > maxLoanAmount) {
             maxLoanAmount = this.amount;
         }
+        
     }
 
     public void setAsPaid() {
